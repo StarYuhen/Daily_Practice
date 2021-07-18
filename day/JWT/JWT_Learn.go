@@ -28,19 +28,19 @@ type jwtJson struct {
 }
 
 // JwtTokenTime 定义jwt过期时间 ，设置为24小时
-const JwtTokenTime = time.Hour * 24
+const jwtTokenTime = time.Hour * 24
 
 // JwtSecret 定义secret
-var JwtSecret = []byte("测试用的jwt")
+var jwtSecret = []byte("测试用的jwt")
 
 // JwtSet 生成jwt信息
-func JwtSet(username string, userpassword string) (string, error) {
+func jwtSet(username string, userpassword string) (string, error) {
 	//填充字段
 	Set := jwtJson{
 		username,
 		userpassword,
 		jwt.StandardClaims{
-			ExpiresAt: time.Now().Add(JwtTokenTime).Unix(), //设置时间
+			ExpiresAt: time.Now().Add(jwtTokenTime).Unix(), //设置时间
 			Issuer:    "yuhen",                             //设置签发人
 		},
 	}
@@ -49,14 +49,14 @@ func JwtSet(username string, userpassword string) (string, error) {
 	token := jwt.NewWithClaims(jwt.SigningMethodES256, Set)
 	//使用指定签名后的jwt字符串
 	fmt.Println("jwt的内容:", token)
-	return token.SignedString(JwtSecret)
+	return token.SignedString(jwtSecret)
 }
 
 // JwtRead 用于解析jwt
-func JwtRead(tokenjson string) (*jwtJson, error) {
+func jwtRead(tokenjson string) (*jwtJson, error) {
 	//解析token  自己鼠标悬浮jwt.ParseWithClaims来看
 	token, err := jwt.ParseWithClaims(tokenjson, &jwtJson{}, func(token *jwt.Token) (interface{}, error) {
-		return JwtSecret, nil
+		return jwtSecret, nil
 	})
 
 	if err != nil {
@@ -87,7 +87,7 @@ func JwtFrome(context *gin.Context) {
 	//	if username == "admin" && userpass == "admin" {
 	if true {
 		//tokenstring, _ := JwtSet(username, userpass)
-		tokenstring, _ := JwtSet("admin", "admin")
+		tokenstring, _ := jwtSet("admin", "admin")
 		data := map[string]interface{}{
 			"code": 1000,
 			"msg":  "Achenes",
@@ -130,7 +130,7 @@ func JwtMild() func(context *gin.Context) {
 			return
 		}
 
-		list, err := JwtRead(past[1])
+		list, err := jwtRead(past[1])
 		if err != nil {
 			context.JSON(http.StatusOK, gin.H{
 				"code": 1005,
