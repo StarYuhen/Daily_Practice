@@ -45,6 +45,7 @@ func main() {
 这是第二个defer
 panic: 这是第一个defer里的panic
 */
+/*
 func main() {
 	defer func() {
 		defer func() { fmt.Println("这是第一个defer") }()
@@ -54,9 +55,29 @@ func main() {
 	//panic("这是第二个panic")
 }
 
+
+ */
 //这就可以看出第一个defer即使有panic，但他依旧先执行了defer，答应内容是
 /*
 这是第二个defer
 这是第一个defer
 panic: 这是第一个defer里的panic
 */
+
+func COde() int {
+	return 1
+}
+func main() {
+	defer func() {
+		fmt.Println("cesjio")
+		COde()
+	}()
+
+
+	defer fmt.Println(COde())
+
+	defer fmt.Println("deferlianian :",COde())
+
+	fmt.Println("dfsdf")
+	COde()
+}

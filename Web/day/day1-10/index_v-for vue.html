@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+<!-- 用于遍历输出数据 列表 v-for -->
+<div id="app">
+    <ul >
+        <li v-for="purpose in test">{{purpose}}</li>
+    </ul>
+</div>
+
+<script src="../../vue.js"></script>
+<script>
+    const  app =new Vue({
+        el:'#app',
+        data:{
+            test:['name','age','unique','hello world','produce']
+        }
+    })
+</script>
+</body>
+</html>
