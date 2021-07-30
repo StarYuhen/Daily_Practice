@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .active{
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+<!-- v-bind-->
+    <!--
+    做了跨域 处理，所以图片无法显示
+    <img v-bind:src="imgurl">
+    <a v-bind:href="hrefurl">pixiv</a>
+    -->
+
+    <!--语法糖写法-->
+    <img :src="imgurl" alt="wdsfs">
+    <a :href="hrefurl">pixiv</a>
+    <h1 v-bind:class="{active: win}">绑定class</h1>
+    <h1 :class="{active:win}">语法糖绑定class</h1>
+
+
+</div>
+
+<script src="../../vue.js"></script>
+<script>
+    const app=new Vue({
+        el:'#app',
+        data:{
+            imgurl:'https://www.pixiv.net/artworks/91426766',
+            hrefurl:'https://www.pixiv.net/',
+            win:true
+        }
+    })
+</script>
+</body>
+</html>
