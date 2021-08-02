@@ -9,7 +9,7 @@ import (
 	"net"
 )
 
-//将proto文件转成pd.go的方式  protoc -I . --go_out=plugins=grpc:. set.proto
+//将proto文件转成pd.go的方式  protoc -I . --go_out=plugins=grpc:. set.proto  必须要进入文件目录才能用这个，否则set.proto 需要加上路径
 /*
 go_out 指定go语言形式
 set.proto指定输入的文件地址
