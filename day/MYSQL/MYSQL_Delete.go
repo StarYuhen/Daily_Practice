@@ -2,7 +2,7 @@ package MYSQL
 
 import (
 	"database/sql"
-	"github.com/sirupsen/logrus/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 //删除数据库内容

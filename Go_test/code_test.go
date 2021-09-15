@@ -15,4 +15,5 @@ import (
 //普通的单元测试
 func TestAdd(t *testing.T) {
 	fmt.Println(code.Add(100))
+
 }

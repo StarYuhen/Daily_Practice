@@ -3,7 +3,7 @@ package MYSQL
 import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/sirupsen/logrus/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 //初始化数据库配置，连接

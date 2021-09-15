@@ -2,7 +2,7 @@ package MYSQL
 
 import (
 	"database/sql"
-	"github.com/sirupsen/logrus/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 // CreatArchitecture 创建数据库架构

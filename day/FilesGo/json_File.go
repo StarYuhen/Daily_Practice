@@ -2,13 +2,14 @@ package FilesGo
 
 import (
 	"encoding/json"
-	"github.com/sirupsen/logrus/logrus"
+	"github.com/sirupsen/logrus"
 	"io/ioutil"
 	"os"
 )
 
 type JsonTable struct {
-	Db string `json:"db"`
+	Db string
+	LO string
 }
 
 func ReadJson() {
@@ -20,7 +21,8 @@ func ReadJson() {
 
 	byteValue, _ := ioutil.ReadAll(jsonFile)
 	var rest map[string]interface{}
-	json.Unmarshal([]byte(byteValue), &rest)
+	json.Unmarshal(byteValue, &rest)
 	logrus.Info("配置文件内容", rest)
 	logrus.Info(rest["db"])
+
 }
