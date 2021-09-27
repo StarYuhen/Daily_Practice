@@ -6,16 +6,16 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-//初始化数据库配置，连接
+// 初始化数据库配置，连接
 
 // MainSQLU 经过处理的连接指定forum_main架构的方法
 func MainSQLU(account string, password string) *sql.DB {
 	db := MainSql(account, password)
-	//一键创建数据库架构forum_main
+	// 一键创建数据库架构forum_main
 	CreatArchitectureINit(db, "forum_main")
-	//关闭原始数据库
+	// 关闭原始数据库
 	db.Close()
-	//返回指定的数据库内容
+	// 返回指定的数据库内容
 	return MainSqlt(account, password)
 }
 
@@ -46,9 +46,9 @@ func MainSqlt(account string, password string) *sql.DB {
 	if err != nil {
 		logrus.Error("数据库链接报错：", err)
 	}
-	//设置最大连接数 默认为0 也就是没有限制
-	//db.SetMaxOpenConns(1000)
-	//设置最大空闲连接 每次执行完语句都将连接放入连接池，默认为2  只有open打开才算哦
+	// 设置最大连接数 默认为0 也就是没有限制
+	// db.SetMaxOpenConns(1000)
+	// 设置最大空闲连接 每次执行完语句都将连接放入连接池，默认为2  只有open打开才算哦
 	db.SetConnMaxIdleTime(10)
 	return db
 }
@@ -58,7 +58,7 @@ func MainSqlt(account string, password string) *sql.DB {
 // CreatArchitectureINit  一键创建指定数据库架构
 func CreatArchitectureINit(db *sql.DB, Architecture string) {
 	if !InArchitecture(db, Architecture) {
-		//当初始化的数据库不存在时创建数据库
+		// 当初始化的数据库不存在时创建数据库
 		CreatArchitecture(db, Architecture)
 	}
 }
