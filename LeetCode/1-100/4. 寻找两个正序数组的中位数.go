@@ -25,11 +25,9 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	fmt.Println(len(nums))
 	lens := len(nums)
 	l := int(math.Floor(float64(lens / 2)))
-	fmt.Println(l)
 	fmt.Println(lens % 2)
 	if lens%2 == 0 {
 		// 说明这个数组是偶数个数 值就是中间两个数想和除以二得除数
-		print("ws", (nums[l]+nums[l-1])/2)
 		return (float64(nums[l]) + float64(nums[l-1])) / 2
 	}
 
