@@ -53,7 +53,7 @@ func MainSqlt(account string, password string) *sql.DB {
 	return db
 }
 
-//----------------------一键数据库操作类---------------------------------
+//  ----------------------一键数据库操作类---------------------------------
 
 // CreatArchitectureINit  一键创建指定数据库架构
 func CreatArchitectureINit(db *sql.DB, Architecture string) {

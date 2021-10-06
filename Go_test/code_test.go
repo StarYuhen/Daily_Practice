@@ -12,8 +12,12 @@ import (
 			https://learnku.com/docs/build-web-application-with-golang/how-113-go-writes-test-cases/3224
 */
 
-//普通的单元测试
+// 普通的单元测试
 func TestAdd(t *testing.T) {
 	fmt.Println(code.Add(100))
+
+}
+
+func TestPI(t *testing.T) {
 
 }
