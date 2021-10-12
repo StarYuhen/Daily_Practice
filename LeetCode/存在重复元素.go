@@ -11,6 +11,7 @@ func containsDuplicate(nums []int) bool {
 			return true
 		}
 		hashmap[value] = true
+
 	}
 	return false
 }
