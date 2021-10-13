@@ -10,7 +10,7 @@ import "fmt"
 */
 
 func main() {
-	fmt.Println(10 ^ 0)
+	fmt.Println(10 ^ 4 ^ 10)
 }
 
 func singleNumber(nums []int) int {
