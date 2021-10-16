@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/url"
 	"strconv"
+	"strings"
 )
 
 /*
@@ -35,15 +36,6 @@ func main() {
 	fmt.Println(string(ls))
 	fmt.Println(strconv.ParseInt(str["timestamp"][0], 10, 64))
 
-}
-
-type Bo struct {
-	Biz_content string
-	Nonce_str   string
-	Sign        string
-	App_id      string
-	Sign_type   string
-	Version     string
-	Client_id   string
-	Timestamp   string
+	arr := strings.Split("1_6929_6706_9_16343700631417", "_")
+	fmt.Println(arr[4])
 }
