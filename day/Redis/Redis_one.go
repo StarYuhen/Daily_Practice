@@ -8,13 +8,29 @@ import (
 
 var ctx = context.Background()
 
-func ExampleClient() {
-	rdb := redis.NewClient(&redis.Options{
-		Addr:       "localhost:6379",
-		Password:   "", // no password set
-		DB:         0,  // use default DB
-		MaxRetries: 2000,
+var rdb = sc()
+
+func sc() *redis.Client {
+	return redis.NewClient(&redis.Options{
+		Network:      "tcp",
+		Addr:         "localhost:6379",
+		Password:     "",
+		DB:           0,   // redis数据库index
+		PoolSize:     100, // redis链接池，默认是4倍cpu数，这里固定 用于协程链接
+		MinIdleConns: 50,  // 初始规定的redis，维护，让其不少于这个数
 	})
+}
+
+func ExampleClient() {
+	/*
+		rdb := redis.NewClient(&redis.Options{
+			Addr:       "localhost:6379",
+			Password:   "", // no password set
+			DB:         0,  // use default DB
+			MaxRetries: 2000,
+		})
+	*/
+
 	/*
 	   	err := rdb.Set(ctx, "key", "value", 0).Err()
 	   	if err != nil {
@@ -43,8 +59,8 @@ func ExampleClient() {
 	   	s:=fmt.Sprintf("name\n")
 	   	logrus.Info(s)
 	*/
-
-	res, err := rdb.SAdd(ctx, "redis 储存sgsd手dsgsddgds机号", "sdgddxcvxfgd", "dgdfhdfh").Result()
+	// 获取是否有这个集合
+	res, err := rdb.SIsMember(ctx, "staryuhen", "14166760605xgdds").Result()
 	if err != redis.Nil {
 		logrus.Error("redis插入集合报错--->", err)
 	}
