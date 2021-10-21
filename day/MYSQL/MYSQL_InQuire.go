@@ -5,7 +5,7 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-//查询
+// 查询
 
 // InArchitecture 查询是否有指定数据库架构
 func InArchitecture(db *sql.DB, ArchitectureName string) bool {
@@ -17,8 +17,8 @@ func InArchitecture(db *sql.DB, ArchitectureName string) bool {
 		logrus.Error("创建数据库报错：", err)
 		return false
 	}
-	//无须关闭数据库，当程序消失时，会自动关闭链接 但只能有一个open
-	//defer db.Close()
+	// 无须关闭数据库，当程序消失时，会自动关闭链接 但只能有一个open
+	// defer db.Close()
 	for res.Next() {
 		res.Scan(&Name)
 		list = append(list, Name)
@@ -26,7 +26,7 @@ func InArchitecture(db *sql.DB, ArchitectureName string) bool {
 
 	for _, value := range list {
 		if value == ArchitectureName {
-			//查询成功会返回名字
+			// 查询成功会返回名字
 			logrus.Info("数据库架构查询:", list)
 			return true
 		}

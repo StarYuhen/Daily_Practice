@@ -27,14 +27,14 @@ func main() {
 }
 
 func firstUniqChar(s string) int {
-	hashmap := map[string]int{}
+	hashmap := map[int32]int{}
 	// 循环遍历字符串内容并写入哈希表，然后计数
 	for _, v := range s {
-		hashmap[string(v)]++
+		hashmap[v]++
 	}
 
 	for i := 0; i < len(s); i++ {
-		if hashmap[string(s[i])] == 1 {
+		if hashmap[int32(s[i])] == 1 {
 			return i
 		}
 	}
