@@ -10,9 +10,12 @@ func main() {
 	ch := make(chan int)
 	// 发送通信数据
 	go func() {
-		for {
-			ch <- 10
-		}
+		/*
+			for {
+				ch <- 10
+			}
+
+		*/
 	}()
 
 	// select监听
@@ -20,6 +23,7 @@ func main() {
 		select {
 		case i := <-ch:
 			fmt.Println(i, "---case1")
+			break
 		case <-ch:
 			fmt.Println("---case2")
 		default:

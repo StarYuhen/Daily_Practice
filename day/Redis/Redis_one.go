@@ -60,10 +60,7 @@ func ExampleClient() {
 	   	logrus.Info(s)
 	*/
 	// 获取是否有这个集合
-	res, err := rdb.SIsMember(ctx, "staryuhen", "14166760605xgdds").Result()
-	if err != redis.Nil {
-		logrus.Error("redis插入集合报错--->", err)
-	}
+	res := rdb.Unlink(ctx, "748793fd-fb3d-4d7e-9f9c-d81427d6a08f")
 	logrus.Println(res)
 
 }
