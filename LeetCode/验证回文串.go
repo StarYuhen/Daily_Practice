@@ -51,10 +51,12 @@ func isPalindrome(s string) bool {
 		log.Fatal(err)
 	}
 	str = reg.ReplaceAllString(str, "")
-	lens := len(str)
+
+	ls := []byte(str)
+	lens := len(ls)
 	lens--
-	for _, value := range str {
-		if value != int32(str[lens]) {
+	for _, value := range ls {
+		if value != ls[lens] {
 			return false
 		}
 		lens--
