@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-//利用gin框架并使用jwt保存信息，jwt主要用于鉴权
+// 利用gin框架并使用jwt保存信息，jwt主要用于鉴权
 
 /*
   定义JWT参数
@@ -35,26 +35,26 @@ var jwtSecret = []byte("测试用的jwt")
 
 // JwtSet 生成jwt信息
 func jwtSet(username string, userpassword string) (string, error) {
-	//填充字段
+	// 填充字段
 	Set := jwtJson{
 		username,
 		userpassword,
 		jwt.StandardClaims{
-			ExpiresAt: time.Now().Add(jwtTokenTime).Unix(), //设置时间
-			Issuer:    "yuhen",                             //设置签发人
+			ExpiresAt: time.Now().Add(jwtTokenTime).Unix(), // 设置时间
+			Issuer:    "yuhen",                             // 设置签发人
 		},
 	}
 
-	//创建指定签名方法的签名对象
+	// 创建指定签名方法的签名对象
 	token := jwt.NewWithClaims(jwt.SigningMethodES256, Set)
-	//使用指定签名后的jwt字符串
+	// 使用指定签名后的jwt字符串
 	fmt.Println("jwt的内容:", token)
 	return token.SignedString(jwtSecret)
 }
 
 // JwtRead 用于解析jwt
 func jwtRead(tokenjson string) (*jwtJson, error) {
-	//解析token  自己鼠标悬浮jwt.ParseWithClaims来看
+	// 解析token  自己鼠标悬浮jwt.ParseWithClaims来看
 	token, err := jwt.ParseWithClaims(tokenjson, &jwtJson{}, func(token *jwt.Token) (interface{}, error) {
 		return jwtSecret, nil
 	})
@@ -63,7 +63,7 @@ func jwtRead(tokenjson string) (*jwtJson, error) {
 		return nil, err
 	}
 
-	if climas, ok := token.Claims.(*jwtJson); ok && token.Valid { //校验token，进行比对
+	if climas, ok := token.Claims.(*jwtJson); ok && token.Valid { // 校验token，进行比对
 		return climas, nil
 	}
 
@@ -83,10 +83,10 @@ func JwtFrome(context *gin.Context) {
 		userpass := jwtJsonFrome["userpass"].(string)
 
 	*/
-	//当账号密码与内置的一样时
+	// 当账号密码与内置的一样时
 	//	if username == "admin" && userpass == "admin" {
 	if true {
-		//tokenstring, _ := JwtSet(username, userpass)
+		// tokenstring, _ := JwtSet(username, userpass)
 		tokenstring, _ := jwtSet("admin", "admin")
 		data := map[string]interface{}{
 			"code": 1000,
@@ -119,7 +119,7 @@ func JwtMild() func(context *gin.Context) {
 			return
 		}
 
-		//按空格分割
+		// 按空格分割
 		past := strings.SplitN(autoHead, "", 2)
 		if !(len(past) == 2 && past[0] == "Bearer") {
 			context.JSON(http.StatusOK, gin.H{
@@ -149,9 +149,9 @@ func JwtMild() func(context *gin.Context) {
 func main() {
 	run := gin.Default()
 	run.POST("/jwt", JwtFrome)
-	//为这个路径请求加载中间件
+	// 为这个路径请求加载中间件
 	//	sv:=run.Group("/")
-	//sv.Use(JwtMild())
-	//设置端口
+	// sv.Use(JwtMild())
+	// 设置端口
 	run.Run(":8000")
 }

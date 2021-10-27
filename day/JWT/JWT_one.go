@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-//jwt只是token的一种使用方式，通常用于鉴权
+// jwt只是token的一种使用方式，通常用于鉴权
 
 // JwtPO 自定义jwt参数
 type jwtPO struct {
@@ -22,7 +22,7 @@ var name = []byte("nmsl")
 
 // SetJwt 生成jwt
 func setJwt() string {
-	//因为是本地测试，所以只用打印看看就行
+	// 因为是本地测试，所以只用打印看看就行
 	lie := jwtPO{
 		"YUHEN",
 		"YYDS",
@@ -38,16 +38,16 @@ func setJwt() string {
 	return tokens
 }
 
-//解析jwt
+// 解析jwt
 func jwtread(jwts string) (*jwtPO, error) {
-	//解析原始内容
+	// 解析原始内容
 	token, err := jwt.ParseWithClaims(jwts, &jwtPO{}, func(token *jwt.Token) (interface{}, error) {
 		return name, nil
 	})
 	if err != nil {
 		return nil, err
 	}
-	//将解析后的内容返回
+	// 将解析后的内容返回
 	if clime, ok := token.Claims.(*jwtPO); ok && token.Valid {
 		return clime, nil
 	}
