@@ -47,6 +47,7 @@ func licenseKeyFormatting(s string, k int) string {
 			hashmap[index]=value
 			J++
 		}
+
 	}
 
 	fmt.Println(J%k)

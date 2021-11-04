@@ -2,6 +2,7 @@
 #create schema students21334;
 # use students21334;
 # 创建数据表 学生表
+
 create table student
 (
     # 自动增加uid--学号
@@ -52,6 +53,8 @@ create table learn
     primary key (uids, classphones)
 );
 
+
+
 /*
 # 设置唯一
 create unique index student_uindex_pk on student (uid);
@@ -71,6 +74,10 @@ alter table learn
 alter table learn
     add constraint learn_class_classphone_fk
         foreign key (classphones) references class (classphone);
+
+
+
+
 
 
 
