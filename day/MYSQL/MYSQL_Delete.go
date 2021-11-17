@@ -5,7 +5,7 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-//删除数据库内容
+// 删除数据库内容
 
 func DeleteTableUser(db *sql.DB, account string) bool {
 	res, err := db.Exec("delete from user_main where account=?", account)

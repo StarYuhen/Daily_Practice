@@ -5,12 +5,12 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-//增加
+// 增加
 
 // AddUser 增加用户数据——user_main 表  会自动检测是否有该账号
 func AddUser(db *sql.DB, account string, password string, authority int) bool {
-	//检测一下是否有该账号 请求可以被抓包，所以不盲目相信前端
-	if InTableUserUnique(db, account) { //有该账号就直接注册失败
+	// 检测一下是否有该账号 请求可以被抓包，所以不盲目相信前端
+	if InTableUserUnique(db, account) { // 有该账号就直接注册失败
 		return false
 	}
 
