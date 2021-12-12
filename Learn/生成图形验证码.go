@@ -38,8 +38,9 @@ func main() {
 			}, "验证码获取成功", c)
 
 		*/
-		number := cp.Store.Get(id, true)
+		number := store.Get(id, true)
+		s := store.Verify(id, number, true)
 		logrus.Info("验证码信息--->", id, b64s, "------", number)
-		logrus.Info("检验是否整确-->", cp.Verify(id, number, true))
+		logrus.Info("检验是否整确-->", s, "----")
 	}
 }
