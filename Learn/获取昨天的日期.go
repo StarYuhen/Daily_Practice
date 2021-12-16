@@ -1,11 +1,12 @@
 package main
 
 import (
-	"log"
+	"github.com/sirupsen/logrus"
 	"time"
 )
 
 func main() {
 	timenow := time.Now().AddDate(0, 0, -1).Format("20060102")
-	log.Printf(timenow)
+	// timews := strings.Split(timenow, " ")
+	logrus.Info(timenow)
 }
