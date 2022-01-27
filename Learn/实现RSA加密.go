@@ -12,7 +12,7 @@ import (
 func main() {
 	privateKey, err := rsa.GenerateKey(rand.Reader, 2048)
 	if err != nil {
-		panic(err)
+		panic(any(err))
 	}
 
 	// The public key is a part of the *rsa.PrivateKey struct
@@ -27,7 +27,7 @@ func main() {
 		[]byte("super secret message"),
 		nil)
 	if err != nil {
-		panic(err)
+		panic(any(err))
 	}
 
 	fmt.Println("encrypted bytes: ", encryptedBytes)
@@ -38,7 +38,7 @@ func main() {
 	// SHA256 to hash the input.
 	decryptedBytes, err := privateKey.Decrypt(nil, encryptedBytes, &rsa.OAEPOptions{Hash: crypto.SHA256})
 	if err != nil {
-		panic(err)
+		panic(any(err))
 	}
 
 	// We get back the original information in the form of bytes, which we
