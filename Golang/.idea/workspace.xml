@@ -4,145 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0252251-c2ca-4168-8f73-5f7e4713c26e" name="变更" comment="新增C语言部分学习代码，修复文件迁移">
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Go_test/code/code.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Go_test/code_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Go_test/gorms/gorms_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Go_test/json_File_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Go_test/test.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/Defer And Panic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/Go结构体的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/byte字节转为string.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/byte特殊字符转化.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/defer 和 return.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/gin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/go_phone.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/goembend.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/goto.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/if go.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/json互相转化.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/logrusl.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/rsa文件加解密.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/rsa生成证书文件.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/sf.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/strings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/sync.Mutex.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/testlimne.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/time.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/time_star.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/time时间戳转化.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/函数拥有两个返回值时的解析.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/加减法.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/协程与变量的修改问题.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/协程结束无线循环.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/启动tcp服务.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/字符串转化.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/实现RSA加密.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/截取字符串.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/更改全局变量.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/测试18的any.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/生成uid.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/生成图形验证码.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/线程池的应用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/获取昨天的日期.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/读取文件.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/锁测试2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/Learn/随机数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/1. 两数之和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/11. 盛最多水的容器.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/1218. 最长定差子序列.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/1295. 统计位数为偶数的数字.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/12_阿拉伯数字转罗马数字.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/1436. 旅行终点站.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/229. 求众数 II.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/237. 删除链表中的节点.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/26. 删除有序数组中的重复项.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/263. 丑数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/268. 丢失的数字.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/27. 移除元素.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/299. 猜数字游戏.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/3. 无重复字符的最长子串.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/342. 4的幂.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/367. 有效的完全平方数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/4. 寻找两个正序数组的中位数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/412. Fizz Buzz.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/414. 第三大的数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/434. 字符串中的单词数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/482. 密钥格式化.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/500. 键盘行.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/575. 分糖果.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/598. 范围求和 II.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/7. 整数反转.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/两个数组的交集 II.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/买卖股票的最佳时机 II.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/删除链表的倒数第N个节点.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/加一.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/反转字符串.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/只出现一次的数字.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/字符串中的第一个唯一字符.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/字符串转换整数 (atoi).go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/存在重复元素.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/实现 strStr().go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/旋转数组.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/有效的字母异位词.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/移动零.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/面试题 17.10. 主要元素.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/LeetCode/验证回文串.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/SetUp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/FilesGo/json_File.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/Grpc/Grpc_one.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/Grpc/grpc_clien.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/Grpc/grpc_upload/protoc/upload.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/Grpc/grpc_upload/servers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/Grpc/grpc_upload/upload.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/Grpc/protoc/set.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/Grpc/set.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/JWT/JWT_Learn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/JWT/JWT_one.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/MYSQL/MYSQL_AddTo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/MYSQL/MYSQL_Creat.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/MYSQL/MYSQL_Delete.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/MYSQL/MYSQL_INIT.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/MYSQL/MYSQL_InQuire.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/MYSQL/MYSQL_Main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/MYSQL/MYSQL_Update.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/Redis/Redis_String.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/Redis/Redis_one.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/Redis/Reids_two.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/crypto/aes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/gin/one.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/day/gorms/gorms.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/logrus.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/logrusl.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/private.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/public.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/sql/21334作业/class.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/sql/21334作业/course.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/sql/21334作业/learn.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/sql/21334作业/ls.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/sql/21334作业/studen.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/src/initTextYuhen/init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/v8/init.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learnv1-2022.3.22/v8/js.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/require.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1e2d39da6be95f7a02c9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0be80d7631a4880805cf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-21T13-41-58-0045.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/cmake-build-debug/.cmake/api/v1/reply/target-C-Debug-1ccd0ffdf02bb567a094.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../C/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../C/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/cmake-build-debug/C.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/cmake-build-debug/CMakeFiles/C.dir/day1/index.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../C/cmake-build-debug/CMakeFiles/C.dir/day1/index.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../C/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../C/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/day1/index.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C/day1/index.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C/day1/显示图形.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C/day1/pdf.cpp" afterDir="false" />
+    <list default="true" id="a0252251-c2ca-4168-8f73-5f7e4713c26e" name="变更" comment="新增阅读书籍的读书笔记目录 ReadBook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +43,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -207,7 +69,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="新增C语言部分学习代码，修复文件迁移" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增C语言部分学习代码，修复文件迁移" />
+    <MESSAGE value="新增阅读书籍的读书笔记目录 ReadBook" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增阅读书籍的读书笔记目录 ReadBook" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
