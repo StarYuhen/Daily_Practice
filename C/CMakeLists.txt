@@ -7,4 +7,4 @@ include_directories(.)
 include_directories(day1)
 
 add_executable(C
-        day1/index.cpp day1/pdf.cpp)
+        day1/index.cpp day1/pdf.cpp day1/Dat.cpp)

@@ -63,6 +63,13 @@ build CMakeFiles/C.dir/day1/pdf.cpp.obj: CXX_COMPILER__C_Debug E$:/CodeDemo/Dail
   OBJECT_DIR = CMakeFiles\C.dir
   OBJECT_FILE_DIR = CMakeFiles\C.dir\day1
 
+build CMakeFiles/C.dir/day1/Dat.cpp.obj: CXX_COMPILER__C_Debug E$:/CodeDemo/Daily$ Practice/C/day1/Dat.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\day1\Dat.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"E:/CodeDemo/Daily Practice/C/." -I"E:/CodeDemo/Daily Practice/C/day1"
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir\day1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C
@@ -71,7 +78,7 @@ build CMakeFiles/C.dir/day1/pdf.cpp.obj: CXX_COMPILER__C_Debug E$:/CodeDemo/Dail
 #############################################
 # Link the executable C.exe
 
-build C.exe: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/day1/index.cpp.obj CMakeFiles/C.dir/day1/pdf.cpp.obj
+build C.exe: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/day1/index.cpp.obj CMakeFiles/C.dir/day1/pdf.cpp.obj CMakeFiles/C.dir/day1/Dat.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C.dir
