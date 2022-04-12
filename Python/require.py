@@ -1,3 +1,3 @@
 # 简易爬虫
-import urllib.request
+import urllib.requesta
 
