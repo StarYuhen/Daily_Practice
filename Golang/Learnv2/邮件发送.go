@@ -24,7 +24,7 @@ func SendToMail(user, sendUserName, password, host, to, subject, body, mailtype 
 
 func main() {
 	user := "3446623843@qq.com"
-	password := "xsiujvorfegzcjfd"
+	password := ""
 	host := "smtp.qq.com:80"
 	to := "3446623843@qq.com"
 

@@ -23,7 +23,7 @@ func main() {
 	// m.Attach("./myIpPic.png")
 
 	// 拿到token，并进行连接,第4个参数是填授权码
-	d := gomail.NewDialer("smtp.qq.com", 587, "3446623843@qq.com", "xsiujvorfegzcjfd")
+	d := gomail.NewDialer("smtp.qq.com", 587, "3446623843@qq.com", "")
 
 	// 发送邮件
 	if err := d.DialAndSend(m); err != nil {
