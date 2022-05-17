@@ -26,7 +26,7 @@ func main() {
 	user := "3446623843@qq.com"
 	password := ""
 	host := "smtp.qq.com:80"
-	to := "3446623843@qq.com"
+	to := ""
 
 	subject := "使用Golang发送邮件"
 
