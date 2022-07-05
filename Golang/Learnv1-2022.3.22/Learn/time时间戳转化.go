@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/sirupsen/logrus"
+	"strings"
 	"time"
 )
 
@@ -42,7 +43,9 @@ func main() {
 	if t > 1635987779+ints*2 {
 		fmt.Println("账号注册时间符合要求")
 	}
-	fmt.Println(s.Format("2006/01/02 15:04:05"))
+	str := strings.Split(s.Format("2006-01-02 15:04:05"), " ")
+	fmt.Println(str[0])
+	fmt.Println(s.Format("2006-01-02 15:04:05"))
 	fmt.Println(t)
 
 }

@@ -14,7 +14,7 @@ func main() {
 	for i := 0; i <= 8; i++ {
 		v := i
 		pool.Add(func() {
-			seconds := v * 3
+			seconds := v * 2
 			time.Sleep(time.Duration(seconds) * time.Second)
 			if v == 5 {
 				logrus.Info("协程池内容", Send["name"])
@@ -25,5 +25,6 @@ func main() {
 	}
 
 	Send["name"].Close()
+	logrus.Info("停止任务")
 	time.Sleep(1000 * time.Second)
 }
