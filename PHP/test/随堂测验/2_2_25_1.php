@@ -19,18 +19,13 @@ if (isset($_GET["size"])){
     $circle=($length+$width)*2;
     $area=$length*$width;
     echo "<script >
-// 获取 dom然后赋值
+    // getElementsByName 对相应dom的值赋值计算结果
 document.getElementsByName('circle')[0].value=$circle
 document.getElementsByName('area')[0].value=$area
 </script>";
-//    echo "长方形的周长是：$circle";
-//    echo  "长方形的面积是：$area";
+
 }
 
-
-//    echo "<script >
-//alert('长方形的周长是：'$circle \n '长方形的面积是：'$area)
-//</script>";
 
 
 
