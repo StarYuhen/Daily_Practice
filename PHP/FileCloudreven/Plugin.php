@@ -35,7 +35,7 @@ class FileCloudreven_Plugin implements Typecho_Plugin_Interface
 HTML;
         $desc = new Typecho_Widget_Helper_Form_Element_Text('desc', NULL, '', '插件介绍：', $html);
         $form->addInput($desc);
-
+        // api可自行对接
         $api = new Typecho_Widget_Helper_Form_Element_Text('api', NULL, 'http://api.yuhenm.com', 'Api：', '只需填写域名包含 http 或 https 无需<code style="padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;"> / </code>结尾<br><code style="padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;">示例地址：http://api.yuhenm.com</code>');
         $form->addInput($api);
         $token = new Typecho_Widget_Helper_Form_Element_Text('token', NULL, '', '用户名：', '如果为空，则上传的所属用户为游客。<a target="_blank" href="https://cloud.yuhenm.com/">用户名在线获取</a><br>如有需要请按示例严格填写>');
