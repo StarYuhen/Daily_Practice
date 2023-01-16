@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+//指定输出文件的目录，不加这个报错
+option go_package = "/protoc";
+
+package test;
+
+// 定义一个微服务
+service Test{
+  // 定义一个hello方法
+  rpc Hello(TestHello) returns (TestReturn){}
+}
+
+// 请求这个微服务方法内容
+message TestHello{
+  string name = 1;
+}
+
+// 响应消息
+message TestReturn{
+  string Return = 1;
+}

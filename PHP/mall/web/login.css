@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #002a56;
+	background-image: radial-gradient(#0036b1,#040529);
+}
+
+.login-form {
+    background-color: #fff;
+    width: 320px;
+    padding: 50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.layui-panel {
+    border-radius: 7px;
+}
+.login-form .login-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-form input {
+    padding-left: 38px;
+}
+
+.login-form .layui-form-item .layui-icon {
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+}
+
+.login-form input[name="captcha"] {
+    width: 195px;
+    display: inline-block;
+    margin-right: 1px;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#captcha {
+    width: 120px;
+    height: 40px;
+}
