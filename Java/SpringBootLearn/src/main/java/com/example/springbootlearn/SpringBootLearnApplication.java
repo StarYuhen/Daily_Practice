@@ -1,6 +1,8 @@
 package com.example.springbootlearn;
 
+import com.example.springbootlearn.Bean.DataBase;
 import com.example.springbootlearn.Bean.Pet;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -15,6 +17,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication(scanBasePackages = "com.example")
 public class SpringBootLearnApplication {
 
+
     public static void main(String[] args) {
         ConfigurableApplicationContext run = SpringApplication.run(SpringBootLearnApplication.class, args);
         // 查看框架使用的组件
@@ -28,6 +31,7 @@ public class SpringBootLearnApplication {
         // 获取容器中有没有指定组件
         boolean Pet = run.containsBean("PetConfig");
         System.out.println(Pet);
+
     }
 
 

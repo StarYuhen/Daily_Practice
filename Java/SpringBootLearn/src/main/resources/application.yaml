@@ -1,1 +1,5 @@
 name: StarYuhen
+
+database:
+    user: root
+    password: abc123456

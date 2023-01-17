@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cycle/database" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cycle/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spiral/core" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spiral/pagination" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cycle/schema-builder" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cycle/annotated" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spiral/logger" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spiral/attributes" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/yiisoft/friendly-exception" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spiral/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,9 @@
+{
+  "require": {
+    "xiaolingzi/lingorm":"^2.0",
+    "cycle/orm": "^2.2",
+    "cycle/annotated": "^3.2",
+    "ext-mysqli": "*",
+    "ext-mysql_xdevapi": "*"
+  }
+}
