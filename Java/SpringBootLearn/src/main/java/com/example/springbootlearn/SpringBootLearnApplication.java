@@ -1,6 +1,6 @@
 package com.example.springbootlearn;
 
-import com.example.springbootlearn.Bean.init;
+import com.example.springbootlearn.Bean.Pet;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -22,7 +22,12 @@ public class SpringBootLearnApplication {
 //        for (String Name : GetSpringBootName) {
 //            System.out.println(Name);
 //        }
-        // 获取指定组件
+//        // 获取指定组件
+//        Pet pet = run.getBean("PetConfig", Pet.class);
+//        System.out.println(pet);
+        // 获取容器中有没有指定组件
+        boolean Pet = run.containsBean("PetConfig");
+        System.out.println(Pet);
     }
 
 
