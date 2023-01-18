@@ -16,7 +16,6 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     // web开发库
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.boot:spring-boot-devtools'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     // 自动配置库
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
@@ -24,6 +23,8 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     // 同时导入build时的包
     compileOnly 'org.projectlombok:lombok'
+    // 自动进行热更新 写完代码后Ctrl+F9 能够自动加载
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

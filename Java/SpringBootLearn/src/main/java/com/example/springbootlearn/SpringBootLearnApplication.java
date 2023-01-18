@@ -19,7 +19,7 @@ public class SpringBootLearnApplication {
 
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext run = SpringApplication.run(SpringBootLearnApplication.class, args);
+//        ConfigurableApplicationContext run = SpringApplication.run(SpringBootLearnApplication.class, args);
         // 查看框架使用的组件
 //        String[] GetSpringBootName = run.getBeanDefinitionNames();
 //        for (String Name : GetSpringBootName) {
@@ -29,9 +29,9 @@ public class SpringBootLearnApplication {
 //        Pet pet = run.getBean("PetConfig", Pet.class);
 //        System.out.println(pet);
         // 获取容器中有没有指定组件
-        boolean Pet = run.containsBean("PetConfig");
-        System.out.println(Pet);
-
+//        boolean Pet = run.containsBean("PetConfig");
+//        System.out.println(Pet);
+        SpringApplication.run(SpringBootLearnApplication.class, args);
     }
 
 

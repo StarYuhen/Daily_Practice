@@ -14,10 +14,12 @@ public class init {
     @Autowired
     DataBase dataBase;
 
+    // 路径权重优先级 controller>resources 目录的资源路径
     @RequestMapping("/init")
     public String Init() {
 //        System.out.println(dataBase.DataBaseConfig());
         log.info(dataBase.DataBaseConfig());
+        log.info("正常配置成功");
         return "init success";
     }
 
