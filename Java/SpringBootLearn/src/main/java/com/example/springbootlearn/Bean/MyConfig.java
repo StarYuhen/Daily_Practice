@@ -4,6 +4,7 @@ import ch.qos.logback.classic.AsyncAppender;
 import org.springframework.boot.actuate.autoconfigure.influx.InfluxDbHealthContributorAutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
@@ -30,6 +31,8 @@ import java.util.function.ToDoubleBiFunction;
 // 设置当容器中有该组件，此配置类代码才生效,进行组件注入,，谈过没有指定组件，注释下面的代码全部无法使用
 // 如：此配置类没有PetConfig的组件，则MyConfig全部无法使用，若在方法前面加上该注释，没有满足条件则会该方法无法使用
 @ConditionalOnBean(name = "PetConfig")
+// 增加注册组件配置 开启DataBase的属性配置功能
+// @EnableConfigurationProperties(DataBase.class)
 public class MyConfig {
     // 设置容器组件，方法名作为组件ID，返回类型是组件类型
     @Bean("PetConfig")
