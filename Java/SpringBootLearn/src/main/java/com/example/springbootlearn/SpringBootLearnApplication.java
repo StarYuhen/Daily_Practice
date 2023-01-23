@@ -17,7 +17,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication(scanBasePackages = "com.example")
 public class SpringBootLearnApplication {
 
-
+    // 自学文档 https://www.yuque.com/atguigu/springboot
     public static void main(String[] args) {
 //        ConfigurableApplicationContext run = SpringApplication.run(SpringBootLearnApplication.class, args);
         // 查看框架使用的组件

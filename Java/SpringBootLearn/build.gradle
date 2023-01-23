@@ -17,6 +17,21 @@ dependencies {
     // web开发库
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    // 引用响应json库
+    implementation 'org.springframework.boot:spring-boot-starter-json'
+    // 引用响应xml库
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml'
+    // 引用jdbc
+    implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+    // 使用数据库管理池 阿里的，又一个kpl项目 需要指定版本
+    // implementation 'com.alibaba:druid:1.2.15' 使用spring框架官方版
+    implementation 'com.alibaba:druid-spring-boot-starter:1.2.15'
+    // 引用java mysql 驱动
+    implementation 'mysql:mysql-connector-java'
+    // 引用mybatis
+    // implementation 'org.mybatis.spring.boot:mybatis-spring-boot:3.0.1'
+    // 引用mybatis-plus https://baomidou.com/pages/24112f/#%E6%94%AF%E6%8C%81%E6%95%B0%E6%8D%AE%E5%BA%93
+    implementation 'com.baomidou:mybatisplus-spring-boot-starter:1.0.5'
     // 自动配置库
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     // lombok 简易开发库 自动注入就用  annotationProcessor导入
