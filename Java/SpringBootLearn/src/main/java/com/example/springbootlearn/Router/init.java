@@ -15,6 +15,7 @@ import java.util.Objects;
 @RestController
 // 注入日志
 @Slf4j
+
 public class init {
     // 自动注入字段
     @Autowired

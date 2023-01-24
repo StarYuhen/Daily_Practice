@@ -14,6 +14,8 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+    // 引用SpringBoot的测试库
+//    implementation 'org.springframework.boot:spring-boot-starter-test'
     // web开发库
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
@@ -29,9 +31,11 @@ dependencies {
     // 引用java mysql 驱动
     implementation 'mysql:mysql-connector-java'
     // 引用mybatis
-    // implementation 'org.mybatis.spring.boot:mybatis-spring-boot:3.0.1'
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.1'
     // 引用mybatis-plus https://baomidou.com/pages/24112f/#%E6%94%AF%E6%8C%81%E6%95%B0%E6%8D%AE%E5%BA%93
-    implementation 'com.baomidou:mybatisplus-spring-boot-starter:1.0.5'
+    implementation 'com.baomidou:mybatis-plus-boot-starter:3.5.3.1'
+    // 引用h2
+    implementation 'com.h2database:h2:2.1.214'
     // 自动配置库
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     // lombok 简易开发库 自动注入就用  annotationProcessor导入
@@ -40,6 +44,7 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     // 自动进行热更新 写完代码后Ctrl+F9 能够自动加载
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    // 引用测试库
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

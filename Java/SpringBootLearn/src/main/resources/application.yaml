@@ -14,6 +14,10 @@ spring:
     url: jdbc:mysql://localhost:3306/eim
     username: root
     password: abc123456
+    # 引用driver数据库类
+#    driver-class-name: org.h2.Driver
+#    schema: classpath:db/schema.sql
+# 禁止使用h2
     # driver-class-name: com.mysql.jdbc.Driver
     # druid 配置 https://github.com/alibaba/druid/blob/master/druid-spring-boot-starter/README.md
     druid:
@@ -60,3 +64,7 @@ spring:
           enabled: true
           config:
           drop-table-allow: false
+#  sql:
+#    init:
+#      schmea-locations: classpath:db/schema.sql
+#      data-locations: classpath:db/UserData.sql

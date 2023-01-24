@@ -2,10 +2,12 @@ package com.example.springbootlearn;
 
 import com.example.springbootlearn.Bean.DataBase;
 import com.example.springbootlearn.Bean.Pet;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.data.annotation.Version;
 
 // 扩展SprintBoot基础扫描包路径
 /*
@@ -14,7 +16,10 @@ import org.springframework.context.ConfigurableApplicationContext;
 @EnableAutoConfiguration
 @ComponentScan
  */
+
 @SpringBootApplication(scanBasePackages = "com.example")
+// 引用mybatis plus 同时扫描mapper包
+@MapperScan("com.example.springbootlearn.mapper")
 public class SpringBootLearnApplication {
 
     // 自学文档 https://www.yuque.com/atguigu/springboot
