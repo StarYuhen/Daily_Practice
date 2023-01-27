@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.0.2'
+    id 'io.spring.dependency-management' version '1.1.0'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '19'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // registration SpringCloud eureka
+//    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.0.0'
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
