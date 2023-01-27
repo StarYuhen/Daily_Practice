@@ -13,5 +13,6 @@ begin
     select max(id) into price_id from price;
 end;
 
+# PROCEDURE price already exists 已经建立储存过程
 
 call price('test', 1, @price_id);
