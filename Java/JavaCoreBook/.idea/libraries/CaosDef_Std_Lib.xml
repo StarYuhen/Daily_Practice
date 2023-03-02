@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CaosDef-Std-Lib" type="Caos Library">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$APPLICATION_PLUGINS_DIR$/CaosPlugin/lib/CaosPlugin-2022.03.03.jar!/lib" />
+    </SOURCES>
+  </library>
+</component>
