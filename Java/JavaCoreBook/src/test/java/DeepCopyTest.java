@@ -24,4 +24,9 @@ public class DeepCopyTest {
         deep2.setAge(90);
         System.out.println(deep1.getAge());
     }
+//    // test Parameter Quote
+//    public void TestParameter(){
+//        DeepCopy deepCopy=new DeepCopy();
+//        deepCopy.
+//    }
 }
