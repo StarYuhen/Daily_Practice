@@ -3,6 +3,7 @@ package CoreJavaVolumeOne;
 /**
  * 用于测试Java的继承操作
  * 继承前面的深拷贝类，同时测试使用字段和方法
+ * find关键字可以申明方法和属性不能被继承
  *
  * @author StarYuhen
  * @version 1.0.1
