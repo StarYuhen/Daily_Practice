@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db4530d4-7495-4e9c-ab3d-9a65ab0fe71f" name="变更" comment="新增Java简易工厂模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/inherit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/inherit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/SuperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/AbstractClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <recent name="yuhen.JavaCore" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.AbstractClass">
+  <component name="RunManager" selected="应用程序.SuperClass">
     <configuration name="AbstractClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreJavaVolumeOne.AbstractClass" />
       <module name="JavaCoreBook" />
@@ -86,12 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorTest.TestConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SuperClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoreJavaVolumeOne.SuperClass" />
       <module name="JavaCoreBook" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConstructorTest" />
-      <option name="METHOD_NAME" value="TestConstructor" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CoreJavaVolumeOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.SuperClass" />
         <item itemvalue="应用程序.AbstractClass" />
         <item itemvalue="JUnit.inheritTest.InheritTest" />
         <item itemvalue="JUnit.DeepCopyTest.TestShallow" />
         <item itemvalue="JUnit.DeepCopyTest.TestDeepCopy" />
-        <item itemvalue="JUnit.ConstructorTest.TestConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +154,7 @@
       <workItem from="1678084022822" duration="263000" />
       <workItem from="1678085961842" duration="300000" />
       <workItem from="1678087197153" duration="3531000" />
+      <workItem from="1678180535591" duration="4416000" />
     </task>
     <task id="LOCAL-00001" summary="新增Java简易工厂模式">
       <created>1677825464792</created>
