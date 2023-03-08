@@ -1,4 +1,4 @@
-package CoreJavaVolumeOne;
+package Book.CoreJavaVolumeOne;
 
 import java.util.ArrayList;
 

@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db4530d4-7495-4e9c-ab3d-9a65ab0fe71f" name="变更" comment="新增Java简易工厂模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/SuperClass.java" afterDir="false" />
+    <list default="true" id="db4530d4-7495-4e9c-ab3d-9a65ab0fe71f" name="变更" comment="新增超类的使用方法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book/CoreJavaVolumeOne/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book/CoreJavaVolumeOne/DeepCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book/CoreJavaVolumeOne/EffectiveJava/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book/CoreJavaVolumeOne/EffectiveJava/StaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book/CoreJavaVolumeOne/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book/CoreJavaVolumeOne/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book/CoreJavaVolumeOne/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book/CoreJavaVolumeOne/constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book/CoreJavaVolumeOne/inherit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StaticFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/AbstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CoreJavaVolumeOne/SuperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yuhen/JavaCore/DeepCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yuhen/JavaCore/DeepCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yuhen/JavaCore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yuhen/JavaCore/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CoreJavaVolumeOne/AbstractClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CoreJavaVolumeOne/AbstractClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CoreJavaVolumeOne/TestName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CoreJavaVolumeOne/TestName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yuhen/JavaCore/DeepCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yuhen/JavaCore/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +58,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/CodeDemo/Daily Practice/Java/JavaCoreBook/src/main/java/yuhen/JavaCore&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/CodeDemo/Daily Practice/Java/JavaCoreBook/src/main/java/Book",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CodeDemo\Daily Practice\Java\JavaCoreBook\src\main\java\Book" />
       <recent name="E:\CodeDemo\Daily Practice\Java\JavaCoreBook\src\main\java\yuhen\JavaCore" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -70,7 +87,7 @@
       <recent name="yuhen.JavaCore" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.SuperClass">
+  <component name="RunManager" selected="JUnit.StaticFactoryTest.BuilderTest">
     <configuration name="AbstractClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreJavaVolumeOne.AbstractClass" />
       <module name="JavaCoreBook" />
@@ -97,21 +114,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeepCopyTest.TestDeepCopy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticFactoryTest.BuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCoreBook" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeepCopyTest" />
-      <option name="METHOD_NAME" value="TestDeepCopy" />
+      <option name="MAIN_CLASS_NAME" value="StaticFactoryTest" />
+      <option name="METHOD_NAME" value="BuilderTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeepCopyTest.TestShallow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticFactoryTest.StaticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCoreBook" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeepCopyTest" />
-      <option name="METHOD_NAME" value="TestShallow" />
+      <option name="MAIN_CLASS_NAME" value="StaticFactoryTest" />
+      <option name="METHOD_NAME" value="StaticTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StaticFactoryTest.BuilderTest" />
+        <item itemvalue="JUnit.StaticFactoryTest.StaticTest" />
         <item itemvalue="应用程序.SuperClass" />
         <item itemvalue="应用程序.AbstractClass" />
         <item itemvalue="JUnit.inheritTest.InheritTest" />
-        <item itemvalue="JUnit.DeepCopyTest.TestShallow" />
-        <item itemvalue="JUnit.DeepCopyTest.TestDeepCopy" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +171,8 @@
       <workItem from="1678084022822" duration="263000" />
       <workItem from="1678085961842" duration="300000" />
       <workItem from="1678087197153" duration="3531000" />
-      <workItem from="1678180535591" duration="4416000" />
+      <workItem from="1678180535591" duration="7409000" />
+      <workItem from="1678265710780" duration="4984000" />
     </task>
     <task id="LOCAL-00001" summary="新增Java简易工厂模式">
       <created>1677825464792</created>
@@ -163,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677825464792</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增超类的使用方法">
+      <created>1678184976783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678184976783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +207,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增Java简易工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增Java简易工厂模式" />
+    <MESSAGE value="新增超类的使用方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增超类的使用方法" />
   </component>
 </project>
