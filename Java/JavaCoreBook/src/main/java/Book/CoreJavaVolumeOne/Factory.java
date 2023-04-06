@@ -1,5 +1,6 @@
 package Book.CoreJavaVolumeOne;
 
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 // definition java interface product Println
@@ -31,7 +32,7 @@ class ProductB implements Product {
 
 
 // factory model
-public class Factory {
+public class Factory implements Cloneable, Comparable {
     // init function
     public static @Nullable Product CreateFactory(String string) {
         if (string.equals("A")) {
@@ -51,6 +52,10 @@ public class Factory {
         factoryB.show();
     }
 
+    @Override
+    public int compareTo(@NotNull Object o) {
+        return 0;
+    }
 }
 
 
