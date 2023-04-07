@@ -1,5 +1,8 @@
 #include <iostream>
+#include <ostream>
+#include <regex>
 #include <sstream>
+#include <string>
 
 
 // 我们尝试简单魔改一下<<运算符,调用它的字符串会自动加上StarYuhen is： ，如果没有声明命名空间会告诉你编译器不知道调用哪个，我们可以写个命名空间
@@ -18,6 +21,7 @@ namespace YuhenStream {
         }
         // 保护
     protected:
+        // 虚函数可以重新构造与基类同名的函数
         virtual int_type overflow(int_type ch = traits_type::eof()) {
             if (ch != traits_type::eof()) {
                 *pptr() = ch;
@@ -121,7 +125,6 @@ int main() {
     // 引用自己自定义的命名空间
     using namespace YuhenStream;
     YuhenStream::yuhenStream << "Hello, world!" << std::endl;
-    return 0;
 }
 
 
