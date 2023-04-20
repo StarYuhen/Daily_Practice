@@ -1,5 +1,6 @@
 package com.yin.myapplication.ui.gallery
 
+import android.app.NativeActivity
 import android.content.ContentValues.TAG
 import android.os.Bundle
 import android.util.Log
@@ -9,8 +10,11 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
 import com.yin.myapplication.R
 import com.yin.myapplication.databinding.FragmentGalleryBinding
 import kotlin.math.log
@@ -63,6 +67,9 @@ class GalleryFragment : Fragment(){
         super.onViewCreated(view, savedInstanceState)
         val viewButtonGoTOHome = view.findViewById<View>(R.id.buttonGoToHome)
         val viewImg=view.findViewById<ImageView>(R.id.Dice)
+
+
+
         viewButtonGoTOHome?.setOnClickListener {
             Toast.makeText(context, "点击了按钮", Toast.LENGTH_SHORT).show()
             // 同时更换字体，使用绑定后的布局Binding中，使用textGallery(是控件名称)进行字体更换
@@ -75,8 +82,10 @@ class GalleryFragment : Fragment(){
                 6->viewImg.setImageResource(R.drawable.dice_6)
             }
 
-            binding.textGallery.text = "看锤子"
+            binding.textGallery.text="你好"
         }
+
+
 
 
     }

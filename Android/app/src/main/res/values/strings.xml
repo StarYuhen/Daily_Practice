@@ -12,4 +12,9 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="go_to_home">返回主页</string>
     <string name="action_test">登录</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="go_to_gallery">点击前往其他地方</string>
 </resources>
