@@ -16,14 +16,20 @@
     <Filter Include="源文件\章节内容">
       <UniqueIdentifier>{57548830-fa1b-4e87-b8b1-111ee74e3aea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\章节内容\第三章">
+      <UniqueIdentifier>{7f8e972e-427c-48bc-bc36-66f9c45b1adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\章节内容\第三章\作业">
+      <UniqueIdentifier>{4306ca97-d460-4c08-81a9-386b50eb47a7}</UniqueIdentifier>
+    </Filter>
     <Filter Include="源文件\章节内容\第二章">
       <UniqueIdentifier>{fc97c5aa-ae60-4fde-97b1-eabe34544a97}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\章节内容\第二章\作业">
       <UniqueIdentifier>{46f76390-0389-48dc-9f9a-eb24f1dd0b3c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\章节内容\第三章">
-      <UniqueIdentifier>{7f8e972e-427c-48bc-bc36-66f9c45b1adb}</UniqueIdentifier>
+    <Filter Include="源文件\章节内容\第四章">
+      <UniqueIdentifier>{12f63fcc-4f69-41a4-a26b-fd8a39808650}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +63,21 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeMain.cpp">
+      <Filter>源文件\章节内容\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="2_1.cpp">
+      <Filter>源文件\章节内容\第三章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="2_2.cpp">
+      <Filter>源文件\章节内容\第三章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="2_3.cpp">
+      <Filter>源文件\章节内容\第三章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreMain.cpp">
+      <Filter>源文件\章节内容\第四章</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

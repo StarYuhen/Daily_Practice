@@ -44,9 +44,9 @@ void TheyRun();
 void TimeNumberCout(int hours, int minutes);
 
 // 用于测试的主函数，为了方便，懒得到处乱写
-int main() {
-
-}
+//int main() {
+//
+//}
 
 
 

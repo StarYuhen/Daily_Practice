@@ -135,11 +135,16 @@
   <ItemGroup>
     <ClCompile Include="1.cpp" />
     <ClCompile Include="2.cpp" />
+    <ClCompile Include="2_1.cpp" />
+    <ClCompile Include="2_2.cpp" />
+    <ClCompile Include="2_3.cpp" />
     <ClCompile Include="3.cpp" />
     <ClCompile Include="4.cpp" />
     <ClCompile Include="5.cpp" />
     <ClCompile Include="6.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="StoreMain.cpp" />
+    <ClCompile Include="TypeMain.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

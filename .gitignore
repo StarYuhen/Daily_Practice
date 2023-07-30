@@ -2,5 +2,4 @@
 /PHP/mall/vendor/
 /PHP/FileCloudreven/vendor/
 /PHP/mall/layuis/
-# 忽略特定文件
-C++/Study C++/.vs/Study C++/v17/Browse.VC.opendb
+C++/Study C++/.vs/
