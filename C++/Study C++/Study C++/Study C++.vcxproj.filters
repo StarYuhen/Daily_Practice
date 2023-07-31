@@ -31,6 +31,9 @@
     <Filter Include="源文件\章节内容\第四章">
       <UniqueIdentifier>{12f63fcc-4f69-41a4-a26b-fd8a39808650}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\章节内容\第四章\作业">
+      <UniqueIdentifier>{1a8ab4eb-d1b0-46e7-b7a4-5cc529791a45}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -67,17 +70,38 @@
     <ClCompile Include="TypeMain.cpp">
       <Filter>源文件\章节内容\第三章</Filter>
     </ClCompile>
-    <ClCompile Include="2_1.cpp">
+    <ClCompile Include="3_1.cpp">
       <Filter>源文件\章节内容\第三章\作业</Filter>
     </ClCompile>
-    <ClCompile Include="2_2.cpp">
+    <ClCompile Include="3_2.cpp">
       <Filter>源文件\章节内容\第三章\作业</Filter>
     </ClCompile>
-    <ClCompile Include="2_3.cpp">
+    <ClCompile Include="3_3.cpp">
       <Filter>源文件\章节内容\第三章\作业</Filter>
     </ClCompile>
     <ClCompile Include="StoreMain.cpp">
       <Filter>源文件\章节内容\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="4_1.cpp">
+      <Filter>源文件\章节内容\第四章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4_2.cpp">
+      <Filter>源文件\章节内容\第四章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4_3.cpp">
+      <Filter>源文件\章节内容\第四章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4_4.cpp">
+      <Filter>源文件\章节内容\第四章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4_5.cpp">
+      <Filter>源文件\章节内容\第四章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4_6.cpp">
+      <Filter>源文件\章节内容\第四章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="4_7.cpp">
+      <Filter>源文件\章节内容\第四章\作业</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -135,11 +135,18 @@
   <ItemGroup>
     <ClCompile Include="1.cpp" />
     <ClCompile Include="2.cpp" />
-    <ClCompile Include="2_1.cpp" />
-    <ClCompile Include="2_2.cpp" />
-    <ClCompile Include="2_3.cpp" />
+    <ClCompile Include="3_1.cpp" />
+    <ClCompile Include="3_2.cpp" />
+    <ClCompile Include="3_3.cpp" />
     <ClCompile Include="3.cpp" />
     <ClCompile Include="4.cpp" />
+    <ClCompile Include="4_1.cpp" />
+    <ClCompile Include="4_2.cpp" />
+    <ClCompile Include="4_3.cpp" />
+    <ClCompile Include="4_4.cpp" />
+    <ClCompile Include="4_5.cpp" />
+    <ClCompile Include="4_6.cpp" />
+    <ClCompile Include="4_7.cpp" />
     <ClCompile Include="5.cpp" />
     <ClCompile Include="6.cpp" />
     <ClCompile Include="main.cpp" />
