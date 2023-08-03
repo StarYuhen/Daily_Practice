@@ -20,12 +20,12 @@ struct CandyBar {
 //	// 然后再初始化
 //	// 利用指针的偏移来初始化
 //	*snack = {
-//		"Mochar Munch",
+//		"mochar munch",
 //		2.3,
 //		350
 //	};
 //	*(snack + 1) = {
-//		"Star Yuhen",
+//		"star yuhen",
 //		3.2,
 //		450
 //	};

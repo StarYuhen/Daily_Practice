@@ -148,7 +148,16 @@
     <ClCompile Include="4_6.cpp" />
     <ClCompile Include="4_7.cpp" />
     <ClCompile Include="5.cpp" />
+    <ClCompile Include="5_2.cpp" />
+    <ClCompile Include="5_1.cpp" />
+    <ClCompile Include="5_3.cpp" />
+    <ClCompile Include="5_4.cpp" />
+    <ClCompile Include="5_6.cpp" />
+    <ClCompile Include="5_7.cpp" />
+    <ClCompile Include="5_8.cpp" />
+    <ClCompile Include="5_9.cpp" />
     <ClCompile Include="6.cpp" />
+    <ClCompile Include="ForMain.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StoreMain.cpp" />
     <ClCompile Include="TypeMain.cpp" />

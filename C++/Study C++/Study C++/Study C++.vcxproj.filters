@@ -34,6 +34,12 @@
     <Filter Include="源文件\章节内容\第四章\作业">
       <UniqueIdentifier>{1a8ab4eb-d1b0-46e7-b7a4-5cc529791a45}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\章节内容\第五章">
+      <UniqueIdentifier>{fc670e11-3920-4c6d-806c-c13aaf269cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\章节内容\第五章\作业">
+      <UniqueIdentifier>{66b0652f-b14f-45f9-b3f4-98bc637ab39f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -102,6 +108,33 @@
     </ClCompile>
     <ClCompile Include="4_7.cpp">
       <Filter>源文件\章节内容\第四章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="ForMain.cpp">
+      <Filter>源文件\章节内容\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="5_1.cpp">
+      <Filter>源文件\章节内容\第五章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5_2.cpp">
+      <Filter>源文件\章节内容\第五章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5_3.cpp">
+      <Filter>源文件\章节内容\第五章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5_4.cpp">
+      <Filter>源文件\章节内容\第五章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5_6.cpp">
+      <Filter>源文件\章节内容\第五章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5_7.cpp">
+      <Filter>源文件\章节内容\第五章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5_8.cpp">
+      <Filter>源文件\章节内容\第五章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="5_9.cpp">
+      <Filter>源文件\章节内容\第五章\作业</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

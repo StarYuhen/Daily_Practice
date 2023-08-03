@@ -12,11 +12,11 @@
 
 using namespace std;
 
-struct CandyBar {
-	string  brand;
-	double weight;
-	int calorie;
-};
+//struct CandyBar {
+//	string  brand;
+//	double weight;
+//	int calorie;
+//};
 
 //int main() {
 //	CandyBar snack = {
