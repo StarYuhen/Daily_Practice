@@ -1,2 +1,13 @@
-﻿  5_9.cpp
-  Study C++.vcxproj -> E:\CodeDemo\Daily Practice\C++\Study C++\x64\Debug\Study C++.exe
+﻿  6_4.cpp
+E:\CodeDemo\Daily Practice\C++\Study C++\Study C++\6_4.cpp(38,11): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+E:\CodeDemo\Daily Practice\C++\Study C++\Study C++\6_4.cpp(46,11): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+E:\CodeDemo\Daily Practice\C++\Study C++\Study C++\6_4.cpp(54,11): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xutility(6219,18): error C2451: 类型为“void”的条件表达式无效
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xutility(6219,18): message : void 类型的表达式不能转换为其他类型
+E:\CodeDemo\Daily Practice\C++\Study C++\Study C++\6_4.cpp(38,4): message : 查看对正在编译的函数 模板 实例化“_InIt std::find_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,main::<lambda_1>>(_InIt,const _InIt,_Pr)”的引用
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Bop>>>,
+              _Ty=Bop,
+              _Pr=main::<lambda_1>
+          ]

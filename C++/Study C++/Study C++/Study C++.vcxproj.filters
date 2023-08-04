@@ -40,6 +40,12 @@
     <Filter Include="源文件\章节内容\第五章\作业">
       <UniqueIdentifier>{66b0652f-b14f-45f9-b3f4-98bc637ab39f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\章节内容\第六章">
+      <UniqueIdentifier>{f7479747-b4f3-407b-9aa3-84a90e1b07f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\章节内容\第六章\作业">
+      <UniqueIdentifier>{20e0d9e9-e754-47ec-a9cd-bb463d137990}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -136,5 +142,23 @@
     <ClCompile Include="5_9.cpp">
       <Filter>源文件\章节内容\第五章\作业</Filter>
     </ClCompile>
+    <ClCompile Include="IFMain.cpp">
+      <Filter>源文件\章节内容\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="6_1.cpp">
+      <Filter>源文件\章节内容\第六章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="6_2.cpp">
+      <Filter>源文件\章节内容\第六章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="6_3.cpp">
+      <Filter>源文件\章节内容\第六章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="6_4.cpp">
+      <Filter>源文件\章节内容\第六章\作业</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt" />
   </ItemGroup>
 </Project>
