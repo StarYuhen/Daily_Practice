@@ -167,8 +167,10 @@
     <ClCompile Include="7_2.cpp" />
     <ClCompile Include="7_3.cpp" />
     <ClCompile Include="7_9.cpp" />
+    <ClCompile Include="8_1.cpp" />
     <ClCompile Include="ForMain.cpp" />
     <ClCompile Include="FuctionMain.cpp" />
+    <ClCompile Include="FunctionInlineMain.cpp" />
     <ClCompile Include="IFMain.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StoreMain.cpp" />

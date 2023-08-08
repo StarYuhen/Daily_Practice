@@ -52,6 +52,12 @@
     <Filter Include="源文件\章节内容\第七章\作业">
       <UniqueIdentifier>{9b2390c5-a4e8-420a-a568-c427eb5ea118}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\章节内容\第八章">
+      <UniqueIdentifier>{78406af3-0eb5-4002-99a0-b4a7ed8696c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\章节内容\第八章\作业">
+      <UniqueIdentifier>{e03fcae6-a129-40de-afa4-d77a1aee5053}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -183,6 +189,12 @@
     </ClCompile>
     <ClCompile Include="7_9.cpp">
       <Filter>源文件\章节内容\第七章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionInlineMain.cpp">
+      <Filter>源文件\章节内容\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="8_1.cpp">
+      <Filter>源文件\章节内容\第八章\作业</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
