@@ -161,7 +161,14 @@
     <ClCompile Include="6_2.cpp" />
     <ClCompile Include="6_3.cpp" />
     <ClCompile Include="6_4.cpp" />
+    <ClCompile Include="6_5.cpp" />
+    <ClCompile Include="6_6.cpp" />
+    <ClCompile Include="7_1.cpp" />
+    <ClCompile Include="7_2.cpp" />
+    <ClCompile Include="7_3.cpp" />
+    <ClCompile Include="7_9.cpp" />
     <ClCompile Include="ForMain.cpp" />
+    <ClCompile Include="FuctionMain.cpp" />
     <ClCompile Include="IFMain.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StoreMain.cpp" />
