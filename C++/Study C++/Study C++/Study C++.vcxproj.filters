@@ -196,6 +196,12 @@
     <ClCompile Include="8_1.cpp">
       <Filter>源文件\章节内容\第八章\作业</Filter>
     </ClCompile>
+    <ClCompile Include="8_2.cpp">
+      <Filter>源文件\章节内容\第八章\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="8_3.cpp">
+      <Filter>源文件\章节内容\第八章\作业</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />

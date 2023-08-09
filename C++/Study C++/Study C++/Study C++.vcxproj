@@ -168,6 +168,8 @@
     <ClCompile Include="7_3.cpp" />
     <ClCompile Include="7_9.cpp" />
     <ClCompile Include="8_1.cpp" />
+    <ClCompile Include="8_2.cpp" />
+    <ClCompile Include="8_3.cpp" />
     <ClCompile Include="ForMain.cpp" />
     <ClCompile Include="FuctionMain.cpp" />
     <ClCompile Include="FunctionInlineMain.cpp" />

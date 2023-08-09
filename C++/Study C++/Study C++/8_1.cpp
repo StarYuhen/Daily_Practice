@@ -20,9 +20,9 @@ void StringLog(string name, int count) {
 	++functionCount;
 }
 
-int main() {
-	StringLog("StarYuhen");
-	StringLog("StarYuhen",10);
-	StringLog("StarYuhen", 10);
-}
+//int main() {
+//	StringLog("StarYuhen");
+//	StringLog("StarYuhen", 10);
+//	StringLog("StarYuhen", 10);
+//}
 
